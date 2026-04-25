@@ -1,0 +1,20 @@
+package com.gojjam.bank.exception;
+
+public class BankingException extends Exception {
+
+    private final String userMessage;
+
+    public BankingException(String userMessage) {
+        super(userMessage);
+        this.userMessage = userMessage;
+    }
+
+    public BankingException(String userMessage, Throwable cause) {
+        super(userMessage, cause);
+        this.userMessage = userMessage;
+    }
+
+    public String getUserMessage() {
+        return userMessage;
+    }
+}
