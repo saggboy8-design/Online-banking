@@ -1,3 +1,4 @@
+<%@page import="com.gojjam.bank.model.Transaction"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"
          import="com.gojjam.bank.model.*,java.util.List,
                  java.time.format.DateTimeFormatter" %>
